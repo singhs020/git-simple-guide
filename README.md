@@ -13,7 +13,7 @@ This reference guide summarizes commonly used Git command line instructions for 
 
 -----------
 #### **Docs & CheatSheet**
-> https://git-scm.com/docs
+> https://git-scm.com/doc
 > https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf
 
 -----------
