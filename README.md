@@ -13,8 +13,8 @@ This reference guide summarizes commonly used Git command line instructions for 
 
 -----------
 #### **Docs & CheatSheet**
-> https://git-scm.com/doc
-> https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf
+>- https://git-scm.com/doc
+>- https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf
 
 -----------
 ####  **Basic Configuration**
@@ -135,7 +135,7 @@ git push origin [branch name]
 >- **pushes local changes to remote branch**
 
 -----
-#### **Merging & Rebasing **
+#### **Merging & Rebasing**
 
 ```
 git merge [branch name]
@@ -170,3 +170,36 @@ gitk --all
 ```
 >- **shows history tree for whole repository**
 
+-----
+#### **Tags**
+
+```
+git tag
+```
+>- **list all the available tags**
+
+```
+git tag -l "v1.0.*"
+```
+>- **search for the tags(allow us to use wildcard characters)**
+
+```
+git tag -a v1.x -m "tagging message"
+```
+>- **creates an annoated tag**
+
+```
+git tag v1.x
+```
+>- **creates a lightweight tag**
+
+```
+git show v1.x
+```
+>- **shows a tag**
+
+```
+git tag v1.x <commit>
+git tag -a v1.x <commit>
+```
+>- **allows us to add tag later**
