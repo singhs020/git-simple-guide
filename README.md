@@ -12,6 +12,11 @@ This reference guide summarizes commonly used Git command line instructions for 
 > http://git-scm.com
 
 -----------
+#### **Docs & CheatSheet**
+https://git-scm.com/docs
+https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf
+
+-----------
 ####  **Basic Configuration**
 ```
  git config --global user.name "[name]"
@@ -164,3 +169,4 @@ gitk
 gitk --all
 ```
 >- **shows history tree for whole repository**
+
