@@ -15,6 +15,10 @@ This reference guide summarizes commonly used Git command line instructions for 
 #### **Docs & CheatSheet**
 >- https://git-scm.com/doc
 >- https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf
+>- https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow
+>- https://git-scm.com/book/en/v2/Git-Branching-Branching-Workflows
+>- http://nvie.com/posts/a-successful-git-branching-model/
+>- https://guides.github.com/introduction/flow/index.html
 
 -----------
 ####  **Basic Configuration**
