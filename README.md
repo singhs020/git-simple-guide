@@ -26,6 +26,21 @@ git config --global color.ui auto
 ```
 >- **enables helpful colorization in command prompt**
 
+-----------
+#### **Generating ssh key using ssh-keygen**
+
+````
+ssh-keygen -t rsa
+````
+
+>- **execute command above, It will prompt for file location ~/.ssh/id_rsa. Press Enter & fill passphrase**
+
+````
+cat ~/.ssh/id_rsa.pub
+````
+
+>- **display public key to consume futher**
+
 ----------
 #### **Creating Repositories**
 ```
