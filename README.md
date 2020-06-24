@@ -213,6 +213,13 @@ git tag -a v1.x <commit>
 >- **allows us to add tag later**
 
 -----------
+#### Useful Tips & Tricks
+
+>- **Delete all merged local branches**
+```
+git branch --merged | egrep -v "(^\*|master|dev)" | xargs git branch -d
+```
+-----------
 #### **Docs & CheatSheet**
 >- https://git-scm.com/doc
 >- https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf
